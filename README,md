@@ -15,13 +15,12 @@ Creating a simple WebApp in python with flask for this sample application/
 ```
 This terraform code will deploy/create Elastic Beanstack in AWS using Amazon Linux, Python and Flash. Also this will create a new Auto Scaling Group, to ensure that the syetem will work and provide both Performance (when needed) and High Availability (HA) in the even of the Instance dies. It will also create new Load Balancer to provdie the HA.
 ```
-<br/>
+
 
 # Customising the variables for your needs.
 
 Change the below variables in the vars.tf file.
 
-<br/>
 
 ```
 aws-region ==> The region where you would like to have this setup
@@ -36,8 +35,6 @@ solution-stack-name ==> EBS - OS/Application Stack Name to be used for creaing t
 
 ```
 
-<br/>
-
 # Deploying the Code / Creating an instance with Terraform
 In Order to Deploy after adding the vars.tf file, run the below commands.
 
@@ -48,7 +45,6 @@ terraform plan
 terraform apply
 
 ```
-<br/>
 
 # Testing the HA-AutoScaling
 
@@ -65,5 +61,3 @@ In Order to remove the instance/setup, just run the below command.
 terraform destroy
 
 ```
-
-<br/>
