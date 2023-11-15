@@ -8,14 +8,12 @@ Requirements:
 
 Create a Highly Available simple Web Application in the AWS Public Cloud infrastructure. 
 
-
 Consideration:
 Creating a simple WebApp in python with flask for this sample application/
 
 ```
 This terraform code will deploy/create Elastic Beanstack in AWS using Amazon Linux, Python and Flash. Also this will create a new Auto Scaling Group, to ensure that the syetem will work and provide both Performance (when needed) and High Availability (HA) in the even of the Instance dies. It will also create new Load Balancer to provdie the HA.
 ```
-
 
 # Customising the variables for your needs.
 
